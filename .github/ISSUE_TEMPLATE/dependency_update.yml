@@ -1,0 +1,26 @@
+name: "📦 Dependencies Update"
+description: "Track a dependency update."
+title: "[DEPENDENCY]: "
+labels: ["dependencies"]
+body:
+  - type: input
+    id: issue_number_title
+    attributes:
+      label: "Issue Number and Title"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: input
+    id: issue_link
+    attributes:
+      label: "Issue Link"
+      placeholder: "placeholder"
+    validations:
+      required: true

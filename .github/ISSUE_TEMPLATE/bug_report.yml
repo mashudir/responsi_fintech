@@ -1,0 +1,47 @@
+name: "🐛 Bug Fix"
+description: "Report a bug that needs to be fixed."
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: issue_number_title
+    attributes:
+      label: "Issue Number and Title"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: textarea
+    id: how_to_replicate
+    attributes:
+      label: "How to Replicate the Bug"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: "Expected Result"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: textarea
+    id: actual_result
+    attributes:
+      label: "Actual Result"
+      placeholder: "placeholder"
+    validations:
+      required: true
+  - type: input
+    id: issue_link
+    attributes:
+      label: "Issue Link"
+      placeholder: "placeholder"
+    validations:
+      required: true
