@@ -1,7 +1,7 @@
 name: "📦 Dependencies Update"
 description: "Track a dependency update."
 title: "[DEPENDENCY]: "
-labels: ["dependencies"]
+labels: ["bug"]
 body:
   - type: input
     id: issue_number_title
