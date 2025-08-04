@@ -1,4 +1,4 @@
-# 📝 Pull Request Template
+# ✨ Feature / Enhancement Pull Request
 
 ## Title
 <!-- placeholder -->
@@ -8,7 +8,7 @@
 
 ## Type of Changes
 - [ ] Bugfix
-- [ ] Feature
+- [x] Feature
 - [ ] Dependencies
 
 ## File(s) Affected
