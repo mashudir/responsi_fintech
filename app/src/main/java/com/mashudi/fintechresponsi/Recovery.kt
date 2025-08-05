@@ -8,4 +8,8 @@ class Recovery : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recovery)
     }
+    override fun onUpdate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_recovery)
+    }
 }
